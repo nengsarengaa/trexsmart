@@ -1,0 +1,218 @@
+/*
+Theme Name: Swifty
+Author: The BoldGrid Team
+Theme URI: https://www.boldgrid.com/themes/swifty/
+Author URI: https://www.boldgrid.com/the-team/
+Description: Designed specifically for use with the BoldGrid suite of plugins, all BoldGrid themes are highly customizable, responsive to a wide range of devices, and of course, beautiful. Every BoldGrid theme includes five pre-selected color palettes and an advanced tool for creating your own unique palette. In addition, all themes feature multiple menu locations and widget areas, which are easily customizable to suit your needs. So if you're looking for a theme that looks great, feels modern and professional, and offers plenty of features to make it your own, you've chosen well.
+Version: 1.3.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: boldgrid-swifty
+
+Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-layout, rtl-language-support, translation-ready, boldgrid-theme-49
+*/
+
+/*------------------------------------------------------------------------
+# Base Styles
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Spacing
+-----------------------------------------------*/ 
+.entry-content {
+	margin: 0;
+}
+.hentry {
+	margin: 0 auto 75px;
+}
+/*-----------------------------------------------
+## Typography
+-----------------------------------------------*/
+.site-footer a {
+	text-decoration: underline;
+}
+.entry-title a:hover,
+.entry-title a:focus,
+.site-footer a:hover,
+.site-footer a:focus {
+	text-decoration: none;
+}
+.site-title,
+.site-description,
+.navbar-default .navbar-nav,
+.navbar-default .navbar-nav .open .dropdown-menu,
+.entry-title,
+#secondary-menu,
+#tertiary-menu,
+.menu-social,
+.site-footer,
+.site-info,
+.attribution {
+	text-align: center;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.navbar-default .navbar-nav,
+	.navbar-default .navbar-nav .open .dropdown-menu {
+		text-align: left;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.site-title,
+	.site-description {
+		text-align: left;
+	}
+}
+
+/*-----------------------------------------------
+## Titles
+-----------------------------------------------*/
+.site-description {
+	margin: 0 0 10px 5px;
+}
+.post-title-hidden .entry-meta {
+	margin-top: 50px;
+}
+.entry-title a {
+	padding: 0 15px;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.page-template-default .entry-title {
+		margin: -25px 0 25px;
+	}
+}
+
+/*-----------------------------------------------
+## Elements
+-----------------------------------------------*/
+blockquote,
+.mod-blockquote {
+	padding-left: 15px;
+}
+
+/*------------------------------------------------------------------------
+# Navigation
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Main Menu
+-----------------------------------------------*/
+.navbar {
+	border: none;
+}
+.navbar-default {
+	background: none;
+	margin: 15px 0 0;
+}
+.navbar-default .navbar-nav > li > a {
+	padding: 10px;
+}
+.navbar-default .navbar-nav > li:first-child > a {
+	margin-left: 0;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.navbar-default .navbar-nav {
+		display: inline-block;
+		float: none;
+	}
+	.navbar-default .navbar-collapse {
+		text-align: center;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.navbar-default {
+		float: right;
+	}
+	.navbar-default .navbar-nav {
+		margin-left: -15px;
+	}
+}
+
+/*-----------------------------------------------
+## Other Menus
+-----------------------------------------------*/
+#secondary-menu a,
+#tertiary-menu a,
+#menu-social a {
+	padding: 0 5px;
+}
+#secondary-menu,
+#tertiary-menu {
+	background: none;
+}
+.footer-center-menu {
+	padding: 1.1em 0;
+}
+.footer-center-items li::after,
+.boldgrid-framework-menu li::after {
+	content: "";
+}
+
+/*------------------------------------------------------------------------
+# Pages
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## 404
+-----------------------------------------------*/
+.error404 .list-group-item {
+	background: transparent;
+	border: none;
+}
+
+/*-----------------------------------------------
+## Search
+-----------------------------------------------*/
+.search .jumbotron {
+	background: none;
+}
+
+/*------------------------------------------------------------------------
+# Posts
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Comments
+-----------------------------------------------*/
+
+/*-----------------------------------------------
+## Widgets
+-----------------------------------------------*/
+.widget,
+#header-widget-area,
+#footer-widget-area {
+	margin: 15px 0;
+}
+
+@media only screen and (min-width: 768px) {
+	.sidebar-1 .sidebar #searchform .button-primary {
+		width: auto;
+		height: auto;
+		padding: 0 1em;
+		font-size: 14px;
+	}
+}
+
+/*------------------------------------------------------------------------
+# Plugins
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## WooCommerce
+-----------------------------------------------*/
+
+/*------------------------------------------------------------------------
+# Footer
+------------------------------------------------------------------------*/
+.site-footer {
+	padding: 0 0 15px;
+}
